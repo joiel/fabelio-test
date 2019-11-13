@@ -48,19 +48,15 @@ function fetchReducer(state, action) {
       if (action.filter === "" || action.filter.length === 0) {
         products = state.allProducts;
       } else {
-        console.log("action");
         products = filter(action.filter, data);
       }
       if (state.search !== "" && isEmpty && action.field !== "search") {
-        console.log("search");
         products = filter(state.search, state.allProducts);
       }
       if (state.category.length > 0 && isEmpty && action.field !== "category") {
-        console.log("cat");
         products = filter(state.category, state.allProducts);
       }
       if (state.dTime.length > 0 && isEmpty && action.field !== "delivery") {
-        console.log("dtime");
         products = filter(state.dTime, state.allProducts);
       }
       return {
@@ -84,7 +80,7 @@ function fetchReducer(state, action) {
   }
 }
 
-const URL = "http://www.mocky.io/v2/";
+const URL = "https://www.mocky.io/v2/";
 const API = "5c9105cb330000112b649af8";
 
 export default function useFetchData() {
