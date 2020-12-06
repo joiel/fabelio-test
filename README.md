@@ -1,46 +1,45 @@
-React SPA fabelio-interview-test
+### React SPA fabelio-interview-test
 
-Furniture Finder
+# Furniture Finder
 
-Exercise: You will create a single page application to search and filter furniture products. 
-Please use any JS library or framework you like. Some example include React, Angular, Vue, etc -- but you're free to choose.
+> Exercise: You will create a single page application to search and filter furniture products. 
+> Please use any JS library or framework you like. Some example include React, Angular, Vue, etc -- but you're free to choose.
 
-The app will consist of these features:
-●	Search Furniture
-○	A text input
-○	Will display result on product list that are relevant to product name based on the keywords entered
- 
-●	Filter by Delivery Time
-○	A dropdown input with checkbox
-○	Will display result on product list based on product delivery time. Delivery time will be grouped by 4: 1 week, 2 weeks, 1 month, & more.
-○	Multiple selection
-	
-●	Filter by Furniture Style
-○	A dropdown input with checkbox
-○	Will display result on product list based on product furniture style
-○	Multiple selection
+## The app will consist of these features:
+1. Search Furniture
+	- A text input
+	- Will display result on product list that are relevant to product name based on the keywords entered
+2. Filter by Delivery Time
+	- A dropdown input with checkbox
+	- Will display result on product list based on product delivery time. Delivery time will be grouped by 4: 1 week, 2 weeks, 1 month, & more.
+	- Multiple selection
+3. Filter by Furniture Style
+	- A dropdown input with checkbox
+	- Will display result on product list based on product furniture style
+	- Multiple selection
+4. Product List
+	- Display list of all products furniture and correlated with active filters.
+	- Display product info: Product name, description (max: 114 char), price (IDR), delivery time (Day), and furniture style.
 
-●	Product List
-○	Display list of all products furniture and correlated with active filters.
-○	Display product info: Product name, description (max: 114 char), price (IDR), delivery time (Day), and furniture style.
+## API & Mockup:
+1. Using API provided in http://www.mocky.io/v2/5c9105cb330000112b649af8, 
+2. follow this mockup: 
+	> https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C69f96e47cf7744b1a55563c08b1587fe/projects/M5a10cadd5babe585815a247587e0dced1553009517182/pages/a44974d1dd4a4ee5a3d9b1965cce5240/image/a44974d1dd4a4ee5a3d9b1965cce5240.png
 
-API & Mockup:
-●	Using API provided in http://www.mocky.io/v2/5c9105cb330000112b649af8, 
-●	follow this mockup: https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C69f96e47cf7744b1a55563c08b1587fe/projects/M5a10cadd5babe585815a247587e0dced1553009517182/pages/a44974d1dd4a4ee5a3d9b1965cce5240/image/a44974d1dd4a4ee5a3d9b1965cce5240.png
+## Evaluation Checklist:
+1. Code quality & readability: Will any random engineer be able to understand the execution just by briefly scanning through the source code?
+2. Engineering best practices: Does it follow proper architectural patterns (like MVC), and SOLID principles?
 
-Evaluation Checklist:
-●	Code quality & readability: Will any random engineer be able to understand the execution just by briefly scanning through the source code?
-●	Engineering best practices: Does it follow proper architectural patterns (like MVC), and SOLID principles?
-●	…
-
-Submission:
-●	Once the test is completed, ensure that the final page is accessible from a github page. Then send us the:
-○	Link to the running application
-○	Link for your github repository project.
-●	See: https://help.github.com/articles/what-is-github-pages/ https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+## Submission:
+1. Once the test is completed, ensure that the final page is accessible from a github page. Then send us the:
+2. Link to the running application
+3. Link for your github repository project.
+	- See: 
+		> https://help.github.com/articles/what-is-github-pages/
+		> https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
